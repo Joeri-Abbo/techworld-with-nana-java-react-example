@@ -3,7 +3,7 @@ buildscript {
     mavenCentral()
   }
   dependencies {
-    classpath 'org.springframework.boot:spring-boot-gradle-plugin:2.6.4'
+    classpath 'org.springframework.boot:spring-boot-gradle-plugin:3.5.4'
   }
 }
 
@@ -20,11 +20,11 @@ targetCompatibility = 1.8
 
 dependencies {
   implementation(
-      "org.springframework.boot:spring-boot-starter-web:2.6.4",
-      "org.springframework.boot:spring-boot-devtools:2.6.4"
+      "org.springframework.boot:spring-boot-starter-web:3.5.4",
+      "org.springframework.boot:spring-boot-devtools:3.5.4"
   )
   testImplementation(
-      "org.springframework.boot:spring-boot-starter-test:2.6.4",
+      "org.springframework.boot:spring-boot-starter-test:3.5.4",
       "org.spockframework:spock-spring:2.1-groovy-3.0"
   )
 }
